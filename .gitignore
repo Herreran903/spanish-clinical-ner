@@ -1,0 +1,19 @@
+# Credenciales. Nunca subir.
+.env
+.env.*
+!.env.example
+
+# Datos y modelos
+data/
+corpus/
+*.keras
+*.safetensors
+checkpoints/
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
